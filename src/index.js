@@ -1,13 +1,55 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Parent from './Parent'
+
+/* import App from './App'; */
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from './reportWebVitals';
+
+import { BrowserRouter } from 'react-router-dom';
+
+import App from './App';
+import Counter from './Counter';
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+    <Counter />
+    {/* <App /> */}
+    {/* <Bootstrapapp /> */}
+    {/* <Hoc /> */}
+    {/* <UseContactObject /> */}
+{/* <UseContexthook /> */}
+ {/*      <Navigationbar />
+      <Bannercomp /> */}
+  {/*     <Container /> */}
+     {/*  <Navigationbar /> */}
+  {/*   <Netflix /> */}
+    </BrowserRouter> 
+{/*     <UseMemo /> */}
+    {/* <UseCallback /> */}
+{/*  <UseRef_02 /> */}
+{/*     <UserRef /> */}
+  {/*   <LifeCycleMethods /> */}
+   {/*  <ApiwithAxios /> */}
+
+  {/*   <UseEffect /> */}
+  {/*   <UseStateHook /> */}
+  {/*   <ConditionTesting04 /> */}
+  {/*   <ConditionTesting3 /> */}
+   {/*  <ConditionTesting02 /> */}
+  {/*   <ConditionTest /> */}
+
+  {/*   <Images /> */}
+{/* <ReactMap /> */}
+
+{/* <Parent /> */}
+    
   </React.StrictMode>
 );
 

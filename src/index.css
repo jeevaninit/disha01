@@ -1,13 +1,152 @@
-body {
-  margin: 0;
+/* body {
+  margin: 0 auto;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 100%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: lightcoral;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+nav {
+  width: 100%;
+  height: 40px;
+  background-color: rgb(128, 191, 240);
+}
+section {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(128, 240, 227);
+}
+
+main {
+  width: 100%;
+  min-height: 400px;
+  background-color: rgb(240, 218, 128);
+  display: flex;
+}
+main aside {
+  width: 20%;
+  height: 600px;
+  background-color: lightpink;
+}
+main article {
+  width: 80%;
+  height: 600px;
+  background-color: rgb(145, 123, 126);
+}
+footer {
+  width: 100%;
+ height: 40px;
+  background-color: rgb(177, 177, 177);
+}
+ul {
+  display: flex;
+}
+li {
+color: rgb(255, 255, 255);
+padding: 0px 50px;
+list-style-type: none;
+}
+.mymenuitems {
+    padding: 0px 50px;
+}
+.mymenuitems li:hover  {
+  background-color: yellow;
+  color:red
+}
+.sidelist {
+  width: 200px;
+  line-height: 40px;
+  background-color: greenyellow;
+}
+
+.imglayout {
+  display: flex;
+  flex-direction: column;
+}
+img {
+  border: solid 10px #ddd;
+  margin: 10px;
+}
+.parent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.apidata {
+  background-color: lightgreen;
+  padding: 10px;
+  margin: 10px;
+  width: 20%;
+}
+.mycustomclss{
+background-color: lightseagreen;
+color: lightgoldenrodyellow;
+text-align: center;
+font-weight: bold;
+} */
+*{
+  margin: 0px;
+  padding: 0px;
+
+}
+nav {
+  width: 100%;
+height:40px;
+background-color: lightseagreen;
+}
+nav ul  {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav ul li {
+  list-style-type: none;
+}
+img {
+  width: 100%;
+  height: 400px;
+}
+
+.mainlayout {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.mainlayout .movieitems {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+.mainlayout .movieitems img {
+  width:300px;
+  height:200px;
+}
+main {
+  display: flex;
+  
+}
+.alignheader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }

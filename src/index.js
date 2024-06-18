@@ -12,13 +12,16 @@ import { BrowserRouter } from 'react-router-dom';
 
 import App from './App';
 import Counter from './Counter';
+import Netflix from './Netflix';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+   
     <BrowserRouter>
+    <Netflix />
     <Counter />
     {/* <App /> */}
     {/* <Bootstrapapp /> */}
@@ -29,7 +32,7 @@ root.render(
       <Bannercomp /> */}
   {/*     <Container /> */}
      {/*  <Navigationbar /> */}
-  {/*   <Netflix /> */}
+  {/* <Netflix />  */}
     </BrowserRouter> 
 {/*     <UseMemo /> */}
     {/* <UseCallback /> */}
